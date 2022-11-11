@@ -11,8 +11,6 @@ import {useState} from 'react';
 import _ from 'lodash';
 
 const PlaceInput = ({location, showDirectionsOnMap}) => {
-  console.log('These are the props');
-
   const [inputvalue, setInputvalue] = useState('');
   const [predictions, setPredictions] = useState([]);
   const [destnation, setDestination] = useState('');
